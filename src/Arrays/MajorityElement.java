@@ -29,7 +29,7 @@ public class MajorityElement {
           int element = 0; // choosing the element
 
           for (int i = 0; i < n; i++){
-              if (count == 0){
+              if (gcount == 0){
                   count = 1;
                   element = a[i];
               } else if (element == a[i]) {
