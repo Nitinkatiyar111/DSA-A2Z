@@ -24,12 +24,12 @@ public class MajorityElement {
     whenever element found we will increase the count and when different element
     found we will decrease the count at last we will check the count with N/2
      */
-      public static int majorityElement(int a[],int n){
+      /*public static int majorityElement(int a[],int n){
           int count = 0; // for counting
           int element = 0; // choosing the element
 
           for (int i = 0; i < n; i++){
-              if (gcount == 0){
+              if (count == 0){
                   count = 1;
                   element = a[i];
               } else if (element == a[i]) {
@@ -48,8 +48,7 @@ public class MajorityElement {
                   return element;
               return -1;
 
-          }
-      }
+          }*/
     public static void main(String[] args){
 
         int a[] = {2,2,1,1,1,2,2};
